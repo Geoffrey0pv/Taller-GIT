@@ -19,3 +19,14 @@ class Vehiculo:
 
     def set_potencia(self, potencia):
         self._potencia = potencia
+
+class Main:
+    def _init_(self):
+        self.vehiculos = []
+
+    def agregar_vehiculo(self, vehiculo):
+        self.vehiculos.append(vehiculo)
+
+    def buscar_vehiculo_por_año(self, año):
+        return [v for v in self.vehiculos if v.get_año() == año]
+

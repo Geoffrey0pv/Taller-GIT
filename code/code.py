@@ -69,9 +69,10 @@ class Main:
 
     def buscar_vehiculo_por_año(self, año):
         return [v for v in self.vehiculos if v.get_año() == año]
-
+      
     def imprimir_vehiculos(self):
         for vehiculo in self.vehiculos:
             print(f"Marca: {vehiculo.get_marca()}, Modelo: {vehiculo.get_modelo()}, Año: {vehiculo.get_año()}, "
                   f"Kilometraje: {vehiculo.get_kilometraje()}, Estado: {vehiculo.get_estado_actual()}, "
                   f"Combustible: {vehiculo.get_tipo_combustible()}")
+

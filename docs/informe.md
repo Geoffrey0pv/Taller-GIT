@@ -16,6 +16,12 @@ Las diferencias principales entre clonar y hacer un fork son:
 
 En resumen, clonar se usa para crear una copia de trabajo local del proyecto, mientras que el fork se utiliza para crear una versión independiente del repositorio que puede evolucionar por separado del original.
 
+
+* Ramas creadas
+
+![image](https://github.com/user-attachments/assets/893957aa-655f-45d6-bf9b-27c67b7389cf)
+
+
 --- 
 
 Espero que este formato en Markdown sea adecuado para tu informe.

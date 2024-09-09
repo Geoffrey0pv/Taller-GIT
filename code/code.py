@@ -84,6 +84,7 @@ class Main:
         for vehiculo in self.vehiculos:
             print(f"Marca: {vehiculo.get_marca()}, Modelo: {vehiculo.get_modelo()}, Año: {vehiculo.get_año()}, "
                   f"Kilometraje: {vehiculo.get_kilometraje()}, Estado: {vehiculo.get_estado_actual()}, "
+
                   f"Combustible: {vehiculo.get_tipo_combustible()}, Color: {vehiculo.get_color()}, "
                   f"Potencia: {vehiculo.get_potencia()} CV")
 
@@ -189,4 +190,6 @@ class VehiculoApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = VehiculoApp(root)
-    root.mainloop()
+    root.mainloop()                  f"Combustible: {vehiculo.get_tipo_combustible()}")
+
+

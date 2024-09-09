@@ -20,6 +20,7 @@ class Vehiculo:
     def set_potencia(self, potencia):
         self._potencia = potencia
 
+
 class HistorialMantenimiento:
     def _init_(self, fecha, descripcion_servicio, kilometraje_en_servicio, costo, nombre_mecanico):
         self._fecha = fecha
@@ -69,4 +70,11 @@ class Main:
 
     def buscar_vehiculo_por_año(self, año):
         return [v for v in self.vehiculos if v.get_año() == año]
+    def buscar_vehiculo_por_comparacion(self, año, comparacion):
+        if comparacion == 'mayor':
+            return [v for v in self.vehiculos if v.get_año() > año]
+        elif comparacion == 'menor':
+            return [v for v in self.vehiculos if v.get_año() < año]
+        else:
+            raise ValueError("Comparación no válida. Use 'mayor' o 'menor'.")
 

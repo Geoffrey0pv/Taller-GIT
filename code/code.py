@@ -70,6 +70,7 @@ class Main:
 
     def buscar_vehiculo_por_año(self, año):
         return [v for v in self.vehiculos if v.get_año() == año]
+
     def buscar_vehiculo_por_comparacion(self, año, comparacion):
         if comparacion == 'mayor':
             return [v for v in self.vehiculos if v.get_año() > año]
@@ -77,4 +78,10 @@ class Main:
             return [v for v in self.vehiculos if v.get_año() < año]
         else:
             raise ValueError("Comparación no válida. Use 'mayor' o 'menor'.")
+     
+    def imprimir_vehiculos(self):
+        for vehiculo in self.vehiculos:
+            print(f"Marca: {vehiculo.get_marca()}, Modelo: {vehiculo.get_modelo()}, Año: {vehiculo.get_año()}, "
+                  f"Kilometraje: {vehiculo.get_kilometraje()}, Estado: {vehiculo.get_estado_actual()}, "
+                  f"Combustible: {vehiculo.get_tipo_combustible()}")
 

@@ -30,3 +30,6 @@ class Main:
     def buscar_vehiculo_por_año(self, año):
         return [v for v in self.vehiculos if v.get_año() == año]
 
+    def buscar_vehiculo_por_rango_años(self, año_min, año_max):
+        return [v for v in self.vehiculos if año_min <= v.get_año() <= año_max]
+

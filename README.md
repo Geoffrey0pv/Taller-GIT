@@ -21,12 +21,30 @@
      ```
    - Esto descargará el código a tu máquina local.
 
-#### **Entrega:**
-- Captura de pantalla mostrando:
-  1. La configuración de tu nombre y correo en Git.
-  2. El proceso de clonación del repositorio.
+---
 
-#### **Reflexión:**
+## **Estandar de Commits**
+- Todos los commits deben seguir la convención de mensajes:
+  - **feat**: Para agregar una nueva funcionalidad.
+  - **fix**: Para corregir errores.
+  - **docs**: Para actualizar la documentación.
+  - **style**: Para cambios que no afectan la lógica del código (formato, espacios, etc.).
+
+**Ejemplo**:
+```bash
+git commit -m "feat: agregar validación al formulario de registro de vehículos"
+```
+
+---
+
+Este estándar debe respetarse por todos los miembros del equipo. Cualquier modificación debe ser consensuada y reflejada en este documento.
+
+---
+
+Este formato proporcionará consistencia a lo largo del proyecto y asegurará que el código sea legible y mantenible por todos los miembros del equipo.
+
+#### **Preguntas:**
+
 - **¿Cuál es la diferencia entre clonar un repositorio y hacer un fork?**
   - **Clonar:** Descargar una copia exacta del repositorio a tu máquina local para trabajar en ella. Las modificaciones que hagas en tu copia local se pueden subir directamente al repositorio remoto, si tienes permisos.
   - **Fork:** Crear una copia del repositorio en tu cuenta de GitHub. Usas un fork cuando no tienes permisos directos para modificar el repositorio original. Las contribuciones se envían mediante pull requests.

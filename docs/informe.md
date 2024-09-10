@@ -1,6 +1,5 @@
-Aquí tienes la respuesta editada y formateada en Markdown para tu informe:
+INFORME TALLER GIT.
 
----
 
 ### 1. ¿Cuál es la diferencia entre clonar un repositorio y hacer un fork? ¿En qué situaciones utilizarías cada uno?
 
@@ -22,6 +21,10 @@ En resumen, clonar se usa para crear una copia de trabajo local del proyecto, mi
 ![image](https://github.com/user-attachments/assets/893957aa-655f-45d6-bf9b-27c67b7389cf)
 
 
---- 
+* Commits Realizados
 
-Espero que este formato en Markdown sea adecuado para tu informe.
+
+
+* Merge realizados
+
+

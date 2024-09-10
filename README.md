@@ -1,4 +1,4 @@
-# Taller de Git y GitHub*
+# **Taller de Git y GitHub**
 
 
 ## **Contexto del Proyecto**
